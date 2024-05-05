@@ -1,0 +1,59 @@
+body,
+p,
+div,
+ul,
+ol,
+li,
+div,
+h1,h2,h3,h4,h5,h6,
+input {
+    margin: 0;
+    padding: 0;
+}
+/*  */
+body {
+    font-size: 16px;
+    color: #999999;
+}
+/*  */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*  */
+ol,ul {
+    list-style: none;
+}
+p {
+    text-indent: 2em;
+    margin-bottom: 10px;
+}
+/*  */
+a {
+    text-decoration: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: ' ';
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+h4 {
+    margin-bottom: 10px;
+}
+a {
+    color: #fff;
+}

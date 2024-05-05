@@ -1,0 +1,284 @@
+.container {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+/* 网页头部导航 */
+.pq-head {
+    width: 100%;
+    height: 52px;
+    background-color: #333333;
+    margin-bottom: 10px;
+}
+
+.pq-head .container .logo {
+    width: 80px;
+    height: 52px;
+    float: left;
+    background-image: url(./logo.jpg);
+    background-size: contain;
+}
+
+.pq-head .container ul {
+    height: 52px;
+}
+.pq-head .container li {
+    height: 52px;
+    float: left;
+    margin: 0 10px;
+    line-height: 52px;
+
+}
+.pq-head .container .active {
+    color: gold;
+    font-size: 18px;
+}
+.pq-head .container a {
+    color: #fff;
+}
+.pq-head .container a:hover {
+    font-size: 18px;
+    color: gold;
+}
+/*  */
+.entry .pu {
+    width: 100%;
+    height: 500px;
+    background-image: url(./many.jpeg);
+    background-size: cover;
+    position: relative;
+}
+.entry .lr-l {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    background: url(./sprites.png) 16px -60px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.entry .lr-r {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 50%;
+    top: 250px;
+    right: 0px;
+    background: url(./sprites.png) -22px -60px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.entry .pu ul {
+    width: 90px;
+    height: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 575px;
+}
+.entry .pu ul li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.entry .pu .act-poi {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.entry .pu li:last-child {
+    margin-right: 0px;
+}
+
+/*  */
+.indu {
+    margin-top: 30px;
+    height: 2800px;
+}
+.indu .container {
+    height: 700px;
+    /* background-color: pink; */
+}
+.indu .container .one {
+    height: 300px;
+    margin-bottom: 30px;
+
+}
+.indu .container .one-pu {
+    width: 480px;
+    height: 270px;
+    /* background-color: yellow; */
+    background-image: url(./介绍.jpg);
+    background-size: contain;
+}
+.indu .container .one-inde {
+    width: 740px;
+    height: 270px;
+    font-size: 16px;
+}
+/*  */
+.indu .container .two {
+    height: 330px;
+    margin-bottom: 30px;
+}
+.indu .container .two-inde {
+    width: 720px;
+    font-size: 16px;
+    height: 330px;
+    /* padding-bottom: 66px; */
+}
+.indu .container .two-pu {
+    width: 510px;
+    height: 330px;
+    background-image: url(./介绍02.jpg);
+    background-size: contain;
+}
+
+.indu .container .author {
+    height: 300px;
+    margin-bottom: 30px;
+}
+.indu .author .au-pu {
+    height: 300px;
+    width: 500px;
+    background-image: url(./介绍03.jpeg);
+    background-size: contain;
+}
+.indu .author .au-inde {
+    width: 720px;
+    height: 220px;
+}
+/*  */
+.indu .container .system {
+    width: 100%;
+    height: 600px;
+    /* background-color: pink; */
+    margin-bottom: 30px;
+}
+.indu .container .item {
+    float: left;
+    width: 300px;
+    height: 550px;
+    margin-right: 10px;
+    /* background-color: yellow; */
+    background-size: cover;
+    position: relative;
+}
+.indu .container .item:last-child {
+    margin-right: 0;
+}
+.indu .container .system .item:nth-child(2) {
+    background-image: url(./第一季.jpeg);
+}
+.indu .container .system .item:nth-child(3) {
+    background-image: url(./第二季.jpeg);
+}
+.indu .container .system .item:nth-child(4) {
+    background-image: url(./第三季.jpg);
+}
+.indu .container .system .item:nth-child(5) {
+    background-image: url(./第四季.jpeg);
+}
+.indu .container .system .item .shadow {
+    width: 300px;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #fff;
+}
+.indu .container .item:hover .shadow {
+    display: block;
+}
+.indu.system .item .shadow h4{
+    color: #fff;
+    font-size: 16px;
+}
+/*  */
+.indu .move {
+    width: 100%;
+    height: 600px;
+    /* background-color: pink; */
+    margin-bottom: 30px;
+}
+.indu .move .item:nth-child(2) {
+    background-image: url(./电影1.jpeg);
+}
+.indu .move .item:nth-child(3) {
+    background-image: url(./电影2.jpeg);
+}
+.indu .move .item:nth-child(4) {
+    background-image: url(./电影03.jpeg);
+}
+.indu .move .item:nth-child(5) {
+    background-image: url(./观念.jpeg);
+}
+.indu .move .item .shadow {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*  */
+.indu .item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*  */
+.indu .m-now {
+    display: block;
+    height: 500px;
+    width: 100%;
+    /* background-color: pink; */
+}
+.indu .m-now .now-pu {
+    display: block;
+    width: 100%;
+    height: 400px;
+    background-image: url(./电影5.jpg);
+    background-size: cover;
+    position: relative;
+}
+.indu .m-now .m-shadow {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.indu .m-now .now-pu:hover .m-shadow {
+    display: block;
+}
+.indu .m-now .now-pu a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*  */
+.end {
+    width: 100%;
+    height: 66px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.end span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 66px;
+    color: #fff;
+}
+
+/*  */
+body {
+    background-image: url(./bg01.jpeg);
+    background-size: cover;
+}
